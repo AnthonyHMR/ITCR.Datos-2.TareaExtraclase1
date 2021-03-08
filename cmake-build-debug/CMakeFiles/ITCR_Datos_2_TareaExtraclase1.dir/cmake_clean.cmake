@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/listaDoble.cpp.o"
+  "CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/ListaEnlazada.cpp.o"
   "CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/main.cpp.o"
   "ITCR_Datos_2_TareaExtraclase1"
   "ITCR_Datos_2_TareaExtraclase1.pdb"

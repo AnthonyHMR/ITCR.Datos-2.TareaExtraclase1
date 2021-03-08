@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/anthony/Documents/Repositorios Datos2/ITCR.Datos-2.TareaExtraclase1/listaDoble.cpp" "/home/anthony/Documents/Repositorios Datos2/ITCR.Datos-2.TareaExtraclase1/cmake-build-debug/CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/listaDoble.cpp.o"
-  "/home/anthony/Documents/Repositorios Datos2/ITCR.Datos-2.TareaExtraclase1/main.cpp" "/home/anthony/Documents/Repositorios Datos2/ITCR.Datos-2.TareaExtraclase1/cmake-build-debug/CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/main.cpp.o"
+  "/home/anthony/Documents/RepositoriosDatos2/ITCR.Datos-2.TareaExtraclase1/ListaEnlazada.cpp" "/home/anthony/Documents/RepositoriosDatos2/ITCR.Datos-2.TareaExtraclase1/cmake-build-debug/CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/ListaEnlazada.cpp.o"
+  "/home/anthony/Documents/RepositoriosDatos2/ITCR.Datos-2.TareaExtraclase1/main.cpp" "/home/anthony/Documents/RepositoriosDatos2/ITCR.Datos-2.TareaExtraclase1/cmake-build-debug/CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

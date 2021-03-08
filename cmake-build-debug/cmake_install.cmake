@@ -1,4 +1,4 @@
-# Install script for directory: /home/anthony/Documents/Repositorios Datos2/ITCR.Datos-2.TareaExtraclase1
+# Install script for directory: /home/anthony/Documents/RepositoriosDatos2/ITCR.Datos-2.TareaExtraclase1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/anthony/Documents/Repositorios Datos2/ITCR.Datos-2.TareaExtraclase1/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/anthony/Documents/RepositoriosDatos2/ITCR.Datos-2.TareaExtraclase1/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,4 +1,4 @@
-/opt/clion-2020.2.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/home/anthony/Documents/Repositorios Datos2/ITCR.Datos-2.TareaExtraclase1"
+/opt/clion-2020.2.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/anthony/Documents/RepositoriosDatos2/ITCR.Datos-2.TareaExtraclase1
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/anthony/Documents/Repositorios Datos2/ITCR.Datos-2.TareaExtraclase1/cmake-build-debug
+-- Build files have been written to: /home/anthony/Documents/RepositoriosDatos2/ITCR.Datos-2.TareaExtraclase1/cmake-build-debug

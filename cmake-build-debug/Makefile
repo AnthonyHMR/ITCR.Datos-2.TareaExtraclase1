@@ -68,10 +68,10 @@ RM = /opt/clion-2020.2.1/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/anthony/Documents/Repositorios Datos2/ITCR.Datos-2.TareaExtraclase1"
+CMAKE_SOURCE_DIR = /home/anthony/Documents/RepositoriosDatos2/ITCR.Datos-2.TareaExtraclase1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/anthony/Documents/Repositorios Datos2/ITCR.Datos-2.TareaExtraclase1/cmake-build-debug"
+CMAKE_BINARY_DIR = /home/anthony/Documents/RepositoriosDatos2/ITCR.Datos-2.TareaExtraclase1/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/anthony/Documents/Repositorios Datos2/ITCR.Datos-2.TareaExtraclase1/cmake-build-debug/CMakeFiles" "/home/anthony/Documents/Repositorios Datos2/ITCR.Datos-2.TareaExtraclase1/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anthony/Documents/RepositoriosDatos2/ITCR.Datos-2.TareaExtraclase1/cmake-build-debug/CMakeFiles /home/anthony/Documents/RepositoriosDatos2/ITCR.Datos-2.TareaExtraclase1/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/anthony/Documents/Repositorios Datos2/ITCR.Datos-2.TareaExtraclase1/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anthony/Documents/RepositoriosDatos2/ITCR.Datos-2.TareaExtraclase1/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -143,32 +143,32 @@ ITCR_Datos_2_TareaExtraclase1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/build.make CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/build
 .PHONY : ITCR_Datos_2_TareaExtraclase1/fast
 
-listaDoble.o: listaDoble.cpp.o
+ListaEnlazada.o: ListaEnlazada.cpp.o
 
-.PHONY : listaDoble.o
+.PHONY : ListaEnlazada.o
 
 # target to build an object file
-listaDoble.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/build.make CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/listaDoble.cpp.o
-.PHONY : listaDoble.cpp.o
+ListaEnlazada.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/build.make CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/ListaEnlazada.cpp.o
+.PHONY : ListaEnlazada.cpp.o
 
-listaDoble.i: listaDoble.cpp.i
+ListaEnlazada.i: ListaEnlazada.cpp.i
 
-.PHONY : listaDoble.i
+.PHONY : ListaEnlazada.i
 
 # target to preprocess a source file
-listaDoble.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/build.make CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/listaDoble.cpp.i
-.PHONY : listaDoble.cpp.i
+ListaEnlazada.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/build.make CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/ListaEnlazada.cpp.i
+.PHONY : ListaEnlazada.cpp.i
 
-listaDoble.s: listaDoble.cpp.s
+ListaEnlazada.s: ListaEnlazada.cpp.s
 
-.PHONY : listaDoble.s
+.PHONY : ListaEnlazada.s
 
 # target to generate assembly for a file
-listaDoble.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/build.make CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/listaDoble.cpp.s
-.PHONY : listaDoble.cpp.s
+ListaEnlazada.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/build.make CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/ListaEnlazada.cpp.s
+.PHONY : ListaEnlazada.cpp.s
 
 main.o: main.cpp.o
 
@@ -206,9 +206,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ITCR_Datos_2_TareaExtraclase1"
-	@echo "... listaDoble.o"
-	@echo "... listaDoble.i"
-	@echo "... listaDoble.s"
+	@echo "... ListaEnlazada.o"
+	@echo "... ListaEnlazada.i"
+	@echo "... ListaEnlazada.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

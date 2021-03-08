@@ -63,10 +63,10 @@ RM = /opt/clion-2020.2.1/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/anthony/Documents/Repositorios Datos2/ITCR.Datos-2.TareaExtraclase1"
+CMAKE_SOURCE_DIR = /home/anthony/Documents/RepositoriosDatos2/ITCR.Datos-2.TareaExtraclase1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/anthony/Documents/Repositorios Datos2/ITCR.Datos-2.TareaExtraclase1/cmake-build-debug"
+CMAKE_BINARY_DIR = /home/anthony/Documents/RepositoriosDatos2/ITCR.Datos-2.TareaExtraclase1/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/depend.make
@@ -79,43 +79,43 @@ include CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/flags.make
 
 CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/main.cpp.o: CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/flags.make
 CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/anthony/Documents/Repositorios Datos2/ITCR.Datos-2.TareaExtraclase1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/main.cpp.o -c "/home/anthony/Documents/Repositorios Datos2/ITCR.Datos-2.TareaExtraclase1/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anthony/Documents/RepositoriosDatos2/ITCR.Datos-2.TareaExtraclase1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/main.cpp.o -c /home/anthony/Documents/RepositoriosDatos2/ITCR.Datos-2.TareaExtraclase1/main.cpp
 
 CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/anthony/Documents/Repositorios Datos2/ITCR.Datos-2.TareaExtraclase1/main.cpp" > CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anthony/Documents/RepositoriosDatos2/ITCR.Datos-2.TareaExtraclase1/main.cpp > CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/main.cpp.i
 
 CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/anthony/Documents/Repositorios Datos2/ITCR.Datos-2.TareaExtraclase1/main.cpp" -o CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anthony/Documents/RepositoriosDatos2/ITCR.Datos-2.TareaExtraclase1/main.cpp -o CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/main.cpp.s
 
-CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/listaDoble.cpp.o: CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/flags.make
-CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/listaDoble.cpp.o: ../listaDoble.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/anthony/Documents/Repositorios Datos2/ITCR.Datos-2.TareaExtraclase1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/listaDoble.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/listaDoble.cpp.o -c "/home/anthony/Documents/Repositorios Datos2/ITCR.Datos-2.TareaExtraclase1/listaDoble.cpp"
+CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/ListaEnlazada.cpp.o: CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/flags.make
+CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/ListaEnlazada.cpp.o: ../ListaEnlazada.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anthony/Documents/RepositoriosDatos2/ITCR.Datos-2.TareaExtraclase1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/ListaEnlazada.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/ListaEnlazada.cpp.o -c /home/anthony/Documents/RepositoriosDatos2/ITCR.Datos-2.TareaExtraclase1/ListaEnlazada.cpp
 
-CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/listaDoble.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/listaDoble.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/anthony/Documents/Repositorios Datos2/ITCR.Datos-2.TareaExtraclase1/listaDoble.cpp" > CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/listaDoble.cpp.i
+CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/ListaEnlazada.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/ListaEnlazada.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anthony/Documents/RepositoriosDatos2/ITCR.Datos-2.TareaExtraclase1/ListaEnlazada.cpp > CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/ListaEnlazada.cpp.i
 
-CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/listaDoble.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/listaDoble.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/anthony/Documents/Repositorios Datos2/ITCR.Datos-2.TareaExtraclase1/listaDoble.cpp" -o CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/listaDoble.cpp.s
+CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/ListaEnlazada.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/ListaEnlazada.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anthony/Documents/RepositoriosDatos2/ITCR.Datos-2.TareaExtraclase1/ListaEnlazada.cpp -o CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/ListaEnlazada.cpp.s
 
 # Object files for target ITCR_Datos_2_TareaExtraclase1
 ITCR_Datos_2_TareaExtraclase1_OBJECTS = \
 "CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/main.cpp.o" \
-"CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/listaDoble.cpp.o"
+"CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/ListaEnlazada.cpp.o"
 
 # External object files for target ITCR_Datos_2_TareaExtraclase1
 ITCR_Datos_2_TareaExtraclase1_EXTERNAL_OBJECTS =
 
 ITCR_Datos_2_TareaExtraclase1: CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/main.cpp.o
-ITCR_Datos_2_TareaExtraclase1: CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/listaDoble.cpp.o
+ITCR_Datos_2_TareaExtraclase1: CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/ListaEnlazada.cpp.o
 ITCR_Datos_2_TareaExtraclase1: CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/build.make
 ITCR_Datos_2_TareaExtraclase1: CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/anthony/Documents/Repositorios Datos2/ITCR.Datos-2.TareaExtraclase1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ITCR_Datos_2_TareaExtraclase1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/anthony/Documents/RepositoriosDatos2/ITCR.Datos-2.TareaExtraclase1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ITCR_Datos_2_TareaExtraclase1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -128,6 +128,6 @@ CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/clean:
 .PHONY : CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/clean
 
 CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/depend:
-	cd "/home/anthony/Documents/Repositorios Datos2/ITCR.Datos-2.TareaExtraclase1/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/anthony/Documents/Repositorios Datos2/ITCR.Datos-2.TareaExtraclase1" "/home/anthony/Documents/Repositorios Datos2/ITCR.Datos-2.TareaExtraclase1" "/home/anthony/Documents/Repositorios Datos2/ITCR.Datos-2.TareaExtraclase1/cmake-build-debug" "/home/anthony/Documents/Repositorios Datos2/ITCR.Datos-2.TareaExtraclase1/cmake-build-debug" "/home/anthony/Documents/Repositorios Datos2/ITCR.Datos-2.TareaExtraclase1/cmake-build-debug/CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /home/anthony/Documents/RepositoriosDatos2/ITCR.Datos-2.TareaExtraclase1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/anthony/Documents/RepositoriosDatos2/ITCR.Datos-2.TareaExtraclase1 /home/anthony/Documents/RepositoriosDatos2/ITCR.Datos-2.TareaExtraclase1 /home/anthony/Documents/RepositoriosDatos2/ITCR.Datos-2.TareaExtraclase1/cmake-build-debug /home/anthony/Documents/RepositoriosDatos2/ITCR.Datos-2.TareaExtraclase1/cmake-build-debug /home/anthony/Documents/RepositoriosDatos2/ITCR.Datos-2.TareaExtraclase1/cmake-build-debug/CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/depend
 
