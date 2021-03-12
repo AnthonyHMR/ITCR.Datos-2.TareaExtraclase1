@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/anthony/Documents/RepositoriosDatos2/ITCR.Datos-2.TareaExtraclase1/Collector.cpp" "/home/anthony/Documents/RepositoriosDatos2/ITCR.Datos-2.TareaExtraclase1/cmake-build-debug/CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/Collector.cpp.o"
   "/home/anthony/Documents/RepositoriosDatos2/ITCR.Datos-2.TareaExtraclase1/ListaEnlazada.cpp" "/home/anthony/Documents/RepositoriosDatos2/ITCR.Datos-2.TareaExtraclase1/cmake-build-debug/CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/ListaEnlazada.cpp.o"
   "/home/anthony/Documents/RepositoriosDatos2/ITCR.Datos-2.TareaExtraclase1/main.cpp" "/home/anthony/Documents/RepositoriosDatos2/ITCR.Datos-2.TareaExtraclase1/cmake-build-debug/CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/main.cpp.o"
   )

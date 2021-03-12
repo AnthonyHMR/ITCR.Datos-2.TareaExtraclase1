@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/anthony/Documents/RepositoriosDatos2/ITCR.Datos-2.TareaExtraclase1/Collector.cpp">
+			<Option target="ITCR_Datos_2_TareaExtraclase1"/>
+		</Unit>
+		<Unit filename="/home/anthony/Documents/RepositoriosDatos2/ITCR.Datos-2.TareaExtraclase1/Collector.h">
+			<Option target="ITCR_Datos_2_TareaExtraclase1"/>
+		</Unit>
 		<Unit filename="/home/anthony/Documents/RepositoriosDatos2/ITCR.Datos-2.TareaExtraclase1/ListaEnlazada.cpp">
 			<Option target="ITCR_Datos_2_TareaExtraclase1"/>
 		</Unit>

@@ -11,6 +11,16 @@ ListaEnlazada::ListaEnlazada(){
     trailer->prev = header;
     header->prev = NULL;
     trailer->next = NULL;
+    c1 = new Collector;
+}
+bool ListaEnlazada::isEmpty() const{
+    if (header->next->data==NULL) {
+        cout << "true" << endl;
+        return true;
+    }else {
+        cout << "false" << endl;
+        return false;
+    }
 }
 int ListaEnlazada::getFront() const{
     return header->next->data;
@@ -47,6 +57,10 @@ void ListaEnlazada::removeFront(){
 }
 void ListaEnlazada::removeBack(){
     Nodo *nd = trailer->prev->prev;
+
+    cout << trailer->prev << endl;
+    c1->saveAddress(trailer->prev);
+    c1->printAddresses();
 
     delete trailer->prev;
 

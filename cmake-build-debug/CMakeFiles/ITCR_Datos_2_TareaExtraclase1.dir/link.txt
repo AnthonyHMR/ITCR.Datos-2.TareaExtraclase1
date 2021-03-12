@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/main.cpp.o CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/ListaEnlazada.cpp.o  -o ITCR_Datos_2_TareaExtraclase1 
+/usr/bin/c++  -g   CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/main.cpp.o CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/ListaEnlazada.cpp.o CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/Collector.cpp.o  -o ITCR_Datos_2_TareaExtraclase1 

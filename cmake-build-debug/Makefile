@@ -143,6 +143,33 @@ ITCR_Datos_2_TareaExtraclase1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/build.make CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/build
 .PHONY : ITCR_Datos_2_TareaExtraclase1/fast
 
+Collector.o: Collector.cpp.o
+
+.PHONY : Collector.o
+
+# target to build an object file
+Collector.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/build.make CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/Collector.cpp.o
+.PHONY : Collector.cpp.o
+
+Collector.i: Collector.cpp.i
+
+.PHONY : Collector.i
+
+# target to preprocess a source file
+Collector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/build.make CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/Collector.cpp.i
+.PHONY : Collector.cpp.i
+
+Collector.s: Collector.cpp.s
+
+.PHONY : Collector.s
+
+# target to generate assembly for a file
+Collector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/build.make CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/Collector.cpp.s
+.PHONY : Collector.cpp.s
+
 ListaEnlazada.o: ListaEnlazada.cpp.o
 
 .PHONY : ListaEnlazada.o
@@ -206,6 +233,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ITCR_Datos_2_TareaExtraclase1"
+	@echo "... Collector.o"
+	@echo "... Collector.i"
+	@echo "... Collector.s"
 	@echo "... ListaEnlazada.o"
 	@echo "... ListaEnlazada.i"
 	@echo "... ListaEnlazada.s"
