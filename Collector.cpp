@@ -14,6 +14,10 @@ Collector::Collector(){
 }
 
 //Revisa si la lista está vacía
+/**
+ *@brief isEmpty
+ *@return bool
+ */
 bool Collector::isEmpty() const {
     bool empty = true;
     Nodo *nd = header->next;
@@ -31,6 +35,10 @@ bool Collector::isEmpty() const {
 }
 
 //Guarda la dirección de memoria borrada
+/**
+ *@brief saveAddress
+ *@param wd
+ */
 void Collector::saveAddress(Nodo *wd) {
     Nodo *nd = new Nodo;
     nd->word = wd;
@@ -42,6 +50,10 @@ void Collector::saveAddress(Nodo *wd) {
 }
 
 //Brinda una dirección de memoria en la lista
+/**
+ *@brief getAddress
+ *@return nd2
+ */
 Nodo* Collector::getAddress() {
     Nodo *nd = trailer->prev->prev;
     Nodo *nd2 = trailer->prev->word;
