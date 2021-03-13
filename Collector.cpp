@@ -13,6 +13,7 @@ Collector::Collector(){
     trailer->next = NULL;
 }
 
+//Revisa si la lista está vacía
 bool Collector::isEmpty() const {
     bool empty = true;
     Nodo *nd = header->next;
@@ -29,6 +30,7 @@ bool Collector::isEmpty() const {
     }
 }
 
+//Guarda la dirección de memoria borrada
 void Collector::saveAddress(Nodo *wd) {
     Nodo *nd = new Nodo;
     nd->word = wd;
@@ -39,6 +41,7 @@ void Collector::saveAddress(Nodo *wd) {
     header->next = nd;
 }
 
+//Brinda una dirección de memoria en la lista
 Nodo* Collector::getAddress() {
     Nodo *nd = trailer->prev->prev;
     Nodo *nd2 = trailer->prev->word;
@@ -51,7 +54,7 @@ Nodo* Collector::getAddress() {
     return nd2;
 }
 
-
+//Imprime las direcciones contenidas en la lista
 void Collector::printAddresses() {
     Nodo *nd = header->next;
 

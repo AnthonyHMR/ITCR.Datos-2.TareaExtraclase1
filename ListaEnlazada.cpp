@@ -14,12 +14,17 @@ ListaEnlazada::ListaEnlazada(){
     c1 = new Collector;
 }
 
+//Obtiene la cabeza de la lista
 int ListaEnlazada::getFront() const{
     return header->next->data;
 }
+
+//Obtiene la cola de la lista
 int ListaEnlazada::getBack() const{
     return trailer->prev->data;
 }
+
+//Anade un Nodo al frente de la lista
 void ListaEnlazada::addFront(int dt){
     if (c1->isEmpty()){
         Nodo *nd = new Nodo;
@@ -40,6 +45,8 @@ void ListaEnlazada::addFront(int dt){
     }
 
 }
+
+//Anade un nodo atras de la lista
 void ListaEnlazada::addBack(int dt){
     Nodo *nd = new Nodo;
     nd->data = dt;
@@ -49,6 +56,8 @@ void ListaEnlazada::addBack(int dt){
     trailer->prev->next = nd;
     trailer->prev=nd;
 }
+
+//Elimina el nodo del frente
 void ListaEnlazada::removeFront(){
     Nodo *nd = header->next->next;
 
@@ -57,6 +66,8 @@ void ListaEnlazada::removeFront(){
     header->next = nd;
     nd->prev = header;
 }
+
+//Elimina el nodo de atras y llama la funcion saveAddress() de la clase Collector para guardar la direccion a borrar
 void ListaEnlazada::removeBack(){
     Nodo *nd = trailer->prev->prev;
 
@@ -68,6 +79,8 @@ void ListaEnlazada::removeBack(){
     trailer->prev = nd;
     nd->next = trailer;
 }
+
+//Imprime la lista al reves
 void ListaEnlazada::printReverse(){
     Nodo *nd = trailer->prev;
 
@@ -76,6 +89,8 @@ void ListaEnlazada::printReverse(){
         nd = nd->prev;
     }
 }
+
+//Imprime la lista desde el frente
 void ListaEnlazada::printForward(){
     Nodo *nd = header->next;
 
@@ -84,6 +99,8 @@ void ListaEnlazada::printForward(){
         nd = nd->next;
     }
 }
+
+
 ListaEnlazada::~ListaEnlazada(){
     while(header->next!=trailer){
         removeFront();
