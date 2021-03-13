@@ -30,28 +30,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90cd02dc-ee9a-4b20-b43f-553f07a3925a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Collector.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Collector.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Collector.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Collector.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Collector.h" beforeDir="false" afterPath="$PROJECT_DIR$/Collector.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ListaEnlazada.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ListaEnlazada.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaEnlazada.h" beforeDir="false" afterPath="$PROJECT_DIR$/ListaEnlazada.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Nodo.h" beforeDir="false" afterPath="$PROJECT_DIR$/Nodo.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/Collector.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/Collector.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/ListaEnlazada.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/ListaEnlazada.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ITCR_Datos_2_TareaExtraclase1.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/ITCR_Datos_2_TareaExtraclase1" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ITCR_Datos_2_TareaExtraclase1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ITCR_Datos_2_TareaExtraclase1.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ITCR_Datos_2_TareaExtraclase1.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,15 +64,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../extraclass_1_Tests" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Pointers/Prueba_Pointer_#1" />
   </component>
   <component name="RunManager">
-    <configuration name="ITCR_Datos_2_TareaExtraclase1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ITCR_Datos_2_TareaExtraclase1" TARGET_NAME="ITCR_Datos_2_TareaExtraclase1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ITCR_Datos_2_TareaExtraclase1" RUN_TARGET_NAME="ITCR_Datos_2_TareaExtraclase1">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="ITCR_Datos_2_TareaExtraclase1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ITCR_Datos_2_TareaExtraclase1" TARGET_NAME="ITCR_Datos_2_TareaExtraclase1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ITCR_Datos_2_TareaExtraclase1" RUN_TARGET_NAME="ITCR_Datos_2_TareaExtraclase1">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -109,7 +97,8 @@
       <workItem from="1615183389068" duration="94000" />
       <workItem from="1615184495358" duration="4128000" />
       <workItem from="1615400383012" duration="6133000" />
-      <workItem from="1615527588885" duration="7166000" />
+      <workItem from="1615527588885" duration="7259000" />
+      <workItem from="1615577900951" duration="13004000" />
     </task>
     <servers />
   </component>
@@ -129,26 +118,26 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="619" y="221" width="424" height="491" key="FileChooserDialogImpl" timestamp="1615413603396">
+    <state x="619" y="221" width="424" height="490" key="FileChooserDialogImpl" timestamp="1615598082248">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
-    <state x="619" y="221" width="424" height="491" key="FileChooserDialogImpl/72.27.1528.873@72.27.1528.873" timestamp="1615413603396" />
-    <state width="1482" height="216" key="GridCell.Tab.0.bottom" timestamp="1615536386958">
+    <state x="619" y="221" width="424" height="490" key="FileChooserDialogImpl/72.27.1528.873@72.27.1528.873" timestamp="1615598082248" />
+    <state width="1482" height="216" key="GridCell.Tab.0.bottom" timestamp="1615610512868">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
-    <state width="1482" height="216" key="GridCell.Tab.0.bottom/72.27.1528.873@72.27.1528.873" timestamp="1615536386958" />
-    <state width="1482" height="216" key="GridCell.Tab.0.center" timestamp="1615536386958">
+    <state width="1482" height="216" key="GridCell.Tab.0.bottom/72.27.1528.873@72.27.1528.873" timestamp="1615610512868" />
+    <state width="1482" height="216" key="GridCell.Tab.0.center" timestamp="1615610512867">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
-    <state width="1482" height="216" key="GridCell.Tab.0.center/72.27.1528.873@72.27.1528.873" timestamp="1615536386958" />
-    <state width="1482" height="216" key="GridCell.Tab.0.left" timestamp="1615536386957">
+    <state width="1482" height="216" key="GridCell.Tab.0.center/72.27.1528.873@72.27.1528.873" timestamp="1615610512867" />
+    <state width="1482" height="216" key="GridCell.Tab.0.left" timestamp="1615610512867">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
-    <state width="1482" height="216" key="GridCell.Tab.0.left/72.27.1528.873@72.27.1528.873" timestamp="1615536386957" />
-    <state width="1482" height="216" key="GridCell.Tab.0.right" timestamp="1615536386958">
+    <state width="1482" height="216" key="GridCell.Tab.0.left/72.27.1528.873@72.27.1528.873" timestamp="1615610512867" />
+    <state width="1482" height="216" key="GridCell.Tab.0.right" timestamp="1615610512868">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
-    <state width="1482" height="216" key="GridCell.Tab.0.right/72.27.1528.873@72.27.1528.873" timestamp="1615536386958" />
+    <state width="1482" height="216" key="GridCell.Tab.0.right/72.27.1528.873@72.27.1528.873" timestamp="1615610512868" />
     <state x="668" y="249" width="325" height="436" key="refactoring.ChangeSignatureDialog" timestamp="1615532389366">
       <screen x="72" y="27" width="1528" height="873" />
     </state>

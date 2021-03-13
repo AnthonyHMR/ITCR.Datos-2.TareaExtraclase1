@@ -14,7 +14,13 @@ Collector::Collector(){
 }
 
 bool Collector::isEmpty() const {
-    if (header->next->word==NULL) {
+    bool empty = true;
+    Nodo *nd = header->next;
+    while (nd!=trailer) {
+        empty = false;
+        nd = nd->next;
+    }
+    if (empty){
         cout << "true" << endl;
         return true;
     }else {
@@ -33,8 +39,16 @@ void Collector::saveAddress(Nodo *wd) {
     header->next = nd;
 }
 
-int Collector::setAddress() {
-    return 0;
+Nodo* Collector::getAddress() {
+    Nodo *nd = trailer->prev->prev;
+    Nodo *nd2 = trailer->prev->word;
+
+    delete trailer->prev;
+
+    trailer->prev = nd;
+    nd->next = trailer;
+
+    return nd2;
 }
 
 

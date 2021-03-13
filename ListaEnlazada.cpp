@@ -13,15 +13,7 @@ ListaEnlazada::ListaEnlazada(){
     trailer->next = NULL;
     c1 = new Collector;
 }
-bool ListaEnlazada::isEmpty() const{
-    if (header->next->data==NULL) {
-        cout << "true" << endl;
-        return true;
-    }else {
-        cout << "false" << endl;
-        return false;
-    }
-}
+
 int ListaEnlazada::getFront() const{
     return header->next->data;
 }
@@ -29,13 +21,23 @@ int ListaEnlazada::getBack() const{
     return trailer->prev->data;
 }
 void ListaEnlazada::addFront(int dt){
-    Nodo *nd = new Nodo;
-    nd->data = dt;
-    nd->prev = header;
-    nd->next = header->next;
+    if (c1->isEmpty()){
+        Nodo *nd = new Nodo;
+        nd->data = dt;
+        nd->prev = header;
+        nd->next = header->next;
 
-    header->next->prev = nd;
-    header->next = nd;
+        header->next->prev = nd;
+        header->next = nd;
+    }else{
+        Nodo *nd = c1->getAddress();
+        nd->data = dt;
+        nd->prev = header;
+        nd->next = header->next;
+
+        header->next->prev = nd;
+        header->next = nd;
+    }
 
 }
 void ListaEnlazada::addBack(int dt){
@@ -58,7 +60,6 @@ void ListaEnlazada::removeFront(){
 void ListaEnlazada::removeBack(){
     Nodo *nd = trailer->prev->prev;
 
-    cout << trailer->prev << endl;
     c1->saveAddress(trailer->prev);
     c1->printAddresses();
 

@@ -16,7 +16,7 @@ public:
     ~Collector();
     bool isEmpty() const;
     void saveAddress(Nodo *dt);
-    int setAddress();
+    Nodo* getAddress();
     void printAddresses();
 private:
     Nodo* header;

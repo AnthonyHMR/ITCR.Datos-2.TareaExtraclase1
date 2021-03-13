@@ -1,7 +1,7 @@
 #ifndef ITCR_DATOS_2_TAREAEXTRACLASE1_NODO_H
 #define ITCR_DATOS_2_TAREAEXTRACLASE1_NODO_H
 
-#include "ListaEnlazada.h"<
+#include "ListaEnlazada.h"
 #include "Collector.h"
 #include <string>
 
